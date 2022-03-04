@@ -36,8 +36,8 @@ background-repeat: no-repeat; background-size: 100%;
 #content-1 {float:left;
  margin-left: 300px;
 }
-#content-2 {float:left;
-  margin-left:200px ;
+#content-2 {float:right;
+  margin-right:50px ;
 }
 #button-uslovie{height: 50px;width: 150px; 
 	background: gray;border-radius: 40px;  border: 5px solid aliceblue;
@@ -87,4 +87,4 @@ background-repeat: no-repeat; background-size: 100%;
 height: 35px;width: 250px;border-radius: 40px;
 	font: Times new Roman; font-size: 18px;}
 #bagroundd{background: gray;height: 65px;}
-
+body{margin: 0;}
