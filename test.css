@@ -19,7 +19,7 @@ background-repeat: no-repeat; background-size: 100%;
 	color:lightslategray;
 	font-size: 20px;}
 #container {
-  width:600px;
+  width:100%;
   margin:0 auto;
   background: url("faux-columns.png") repeat-y;
   overflow: hidden;
@@ -30,10 +30,13 @@ background-repeat: no-repeat; background-size: 100%;
   
 }
 #content {
-  float:left;
+  float:left; padding-left: 300px;
  
 }
 #content-1 {float:left;
+ margin-left: 300px;
+}
+#content-2 {float:left;
   margin-left:200px ;
 }
 #button-uslovie{height: 50px;width: 150px; 
