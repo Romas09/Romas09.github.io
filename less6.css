@@ -45,20 +45,21 @@ height: 50px;
 
 #osn{height: 1000px;width: 100%;margin-top:}
 #left{width: 10%;height: 100%; background: lightgray;
-    float:left;}
+    float:left;overflow-x:auto;}
 #right{width: 10%;background: lightgray;float: right;text-align: center;
-    height: 100%;}
+    height: 100%;overflow-x:auto;}
 #mid{width: 80%;float:left;height: 100%;  
- background: white;overflow-y: auto;}
+ background: white;overflow-y:auto;}
 
 a{text-align: left;margin-left: 5px;}
 #text{margin-left: 10px;}
 #dl{ padding-left: 7px;padding-right: 7px;}
 #im{float: left; width: 60%;white-space: nowrap;}
 #iium{float: left; }#iium1{float: left; width: 100px;height: 100px;}
-#um{ width: 10%; float: left;}
-#rt{height: 50px; width: 50px;margin-top: 5px;}
-#iim{float: left; width: 10%;margin-top: 5px;}
+#um{ width: 90%; white-space: nowrap; overflow-x:auto;}
+#rt{height: 50px; width: 50px;margin-top: 15px; margin-left: 15px; }#text{ display: inline-block;  }
+#iim{float: left; width: 10%;margin-top: 5px;height: 90%;}
+
 /* 71 фикс блок */   
 body {
     margin: 0;
