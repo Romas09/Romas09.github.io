@@ -30,29 +30,33 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
-/**/
+
+#glav{width: 100%;height: 100%;}
 #zagolovok{
 	background: gray;
 	color: white;text-align: center; width: 100%;
-height: 80px;
+height: 100px;
 }
 #zagolovok1{
   background: gray;
   color: white; width: 100%;
-margin-top: 370px;height: 40px;
+height: 50px;
 }
-#left{width: 10%;height: 400px; background: lightgray;
-    float: left;margin-top: -22px;}
+
+#osn{height: 1000px;width: 100%;margin-top:}
+#left{width: 10%;height: 100%; background: lightgray;
+    float:left;}
 #right{width: 10%;background: lightgray;float: right;text-align: center;
-    height: 400px;margin-top: -22px;}
-#mid{width: 80%;float: left;height: 400px;margin-top: -22px;  
- background: white;}
+    height: 100%;}
+#mid{width: 80%;float:left;height: 100%;  
+ background: white;overflow-y: auto;}
+
 a{text-align: left;margin-left: 5px;}
 #text{margin-left: 10px;}
 #dl{ padding-left: 7px;padding-right: 7px;}
-#im{float: left; width: 40%;}
+#im{float: left; width: 60%;white-space: nowrap;}
 #iium{float: left; }#iium1{float: left; width: 100px;height: 100px;}
-#um{ width: 20%; float: left;}
+#um{ width: 10%; float: left;}
 #rt{height: 50px; width: 50px;margin-top: 5px;}
 #iim{float: left; width: 10%;margin-top: 5px;}
 /* 71 фикс блок */   
@@ -66,7 +70,7 @@ body {
     color: #fff; /* Цвет текста */
     position: fixed; /* Фиксируем на одном месте  */
     min-height: 100px; /* Минимальная высота */
-    top: 200px; left: -320px;
+    top: 100px; left: -320px;
     border-right: 20px solid #fc0; /* Оранжевая граница справа */
     padding: 10px;
     transition: left 1s; /* Анимация */
