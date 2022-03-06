@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .dropbtn {
-    background-color: darkred;
+    background-color: dimgray;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -29,7 +29,7 @@
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: darkslategray;}
 
 #glav{width: 100%;height: 100%;}
 #zagolovok{
@@ -91,3 +91,106 @@ body {
    .feedback:hover {
     left: 0; /* При наведении сдвигаем вправо */
    }
+
+/*registration les8*/
+#fr{background-color:  #b1b3ad;width: 100%;height: 100%;
+color:  white;
+border: 2px solid #000000;
+}
+#rt{margin-left: 220px;}
+#eop{margin-left: 20px;}
+#df { text-align: center; }
+#gf{ text-align: center}
+#subn{background-color:  gray;  }
+
+/*les2*/
+#mr{width: 100%;height: 100%;
+	border-collapse: collapse;
+	border-color: darkslategray;
+}#fk{
+	color: white;
+}
+#wn{
+	color: #964b00 ;
+	width: 200px;
+	background-color: #d8ce8d;
+	border-radius: 10px;
+	box-shadow: 5px 5px 0px 0px #964b00;
+	
+}
+#ull{margin-left: -25px;}
+	border-collapse: collapse;
+	border-color: red ;
+}#fk{
+	color: white;
+}
+#wn{
+	color: #964b00 ;
+	width: 200px;
+	background-color: #d8ce8d;
+	border-radius: 10px;
+	box-shadow: 5px 5px 0px 0px #964b00;
+	
+}
+#ull{margin-left: -25px;}
+
+#sidebar {
+	 
+  float:left;
+  margin-left: -200px;
+}
+
+#button_whatsap{background: url("whatsap.png");
+	height: 50px;width: 50px; 
+	background-size: 100%;background-repeat: no-repeat;
+	border-radius: 40px;border: 3px solid black;}
+
+#button_whatsap:hover{background: url("whatsap.png");
+	height: 52px;width: 52px; 
+	background-size: 100%;background-repeat: no-repeat;
+	border-radius: 40px;border: 3px solid black;}
+
+ .feed{
+    border-radius: 10px 40px 40px 10px;
+    width: 100px;
+    background: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+    min-height: 100px; /* Минимальная высота */
+    top: 220px; left: -120px;
+    border-right: 40px solid #fc0; /* Оранжевая граница справа */
+    padding: 10px;
+    transition: left 1s; /* Анимация */
+	 align-content: center;}
+   
+   .feed::after { 
+    content: 'Обратная связь';/* Выводим текст */
+    color: #000; /* Цвет надписи */
+    position: absolute; /* Абсолютное позиционирование */
+    right: -60px; bottom: 50px;
+    transform: rotate(-90deg); /* Поворачиваем текст */
+   
+   }
+   .feed:hover {
+    left: 0; /* При наведении сдвигаем вправо */
+   }
+
+ .feedd{
+    border-radius: 10px 10px 10px 10px;
+    width: 230px;
+    background: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+    min-height: 30px; /* Минимальная высота */
+    top: 40px;display:none;
+    padding: 10px;
+   left: 0;
+	 
+   }
+  
+.section {padding-bottom: 10px;
+  
+}
+.section:hover .feedd {
+  display: inline;left: 0;
+}
