@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*shapka */
+#shapka{
+	position: absolute;
+width: 100%;
+height: 7em;
+left: 0px;
+top: 0px;
+}
+#shapka_logo{
+position: absolute;
+width: 160px;
+height: 109px;
+left: 7em;
+top: 0.1em;
+background-image: url(Group6.png);
+background-repeat: no-repeat; 
+background-size: 95%;
+}
+#shapka_kontakt{
+position: absolute;
+width: 216px;
+height: 100px;
+right: 13em;
+top: 9px;
+background-image: url(Group7.png);
+background-repeat: no-repeat; 
+background-size: 95%;
+}
+/*whatsap button */
+#shapka_whatssupdiv{position: absolute;
+width: 73px;
+height: 73px;
+right: 8em;
+top: 19px;
+}
+#shapka_whatssapbutton{
+border: 0px;
+width: 73px;
+height: 73px;
+background: url(whatssup.png);
+border-radius: 15px;
+background-repeat: no-repeat; 
+background-size:100%;}
+#shapka_whatssapbutton:hover{width: 75px;
+height: 75px;}
+/*end whatsap button */
+/*end shapka */
+/*main*/
+#main{
+position: absolute;
+min-width:200px;
+top: 7.1em;
+height: 60em;
+left: 7em;
+right: 8em;
+background: #FFFFFF;
+}
+
+
+
+
+
+
+/*podval*/
+#podval{
+position:absolute;
+width: 100%;
+height: 161px;
+left: 0px;
+bottom:0em;
+
+background: #000000;
+}
