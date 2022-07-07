@@ -1,11 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-    	background: url(f.png);
+    	background: url(images/f.png);
 		background-repeat: repeat; 
 		background-size:100%;
 }
-
+button {width: 100%;height: 100%;}
+form {height: 100%;width: 100%;}
 /*shapka */
 #shapka{
 	position: absolute;
@@ -20,7 +21,7 @@ width: 10em;
 height: 8em;
 left: 7em;
 top: 0.1em;
-background-image: url(logo.png);
+background-image: url(images/logo.png);
 background-repeat: no-repeat; 
 background-size: 95%;
 }
@@ -31,20 +32,21 @@ width: 38em;
 height: 5em;
 left: 30em;
 top:2em;
-background-image: url(computersystem.png);
+background-image: url(images/computersystem.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
-#shapka_kontakt{
+#shapka_kontakt {
 position: absolute;
 width: 14em;
-height: 8em;
+height: 6.5em;
 right: 13em;
 top: 0.5em;
-background-image: url(kontaktpc.png);
-background-repeat: no-repeat; 
-background-size: 100%;
 }
+#shapka_kontakt_button{
+background: url(images/kontaktpc.png);
+background-repeat: no-repeat; 
+background-size: 100%;border: 0px;}
 /*whatsap button */
 #shapka_whatssupdiv{position: absolute;
 width: 4.5em;
@@ -54,9 +56,7 @@ top: 1.3em;
 }
 #shapka_whatssapbutton{
 border: 0px #000000;
-width: 5.5em;
-height: 5.5em;
-background: url(whatssup.png);
+background: url(images/whatssup.png);
 border-radius: 1em;
 background-repeat: no-repeat; 
 background-size:100%;}
@@ -81,6 +81,7 @@ background: #FFFFFF;
 
 
 
+
 /*podval*/
 #podval{
 position:absolute;
@@ -96,7 +97,7 @@ width: 12.65em;
 height: 9em;
 left: 8.5em;
 top: 0.5em;
-background: url(logo.png);	
+background: url(images/logo.png);	
 background-repeat: no-repeat; 
 background-size: 100%;
 }
@@ -105,7 +106,7 @@ width: 33em;
 height: 6.5em;
 left: 32.5em;
 top: 2.5em;
-background: url(RomasInd.png);
+background: url(images/RomasInd.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
@@ -115,7 +116,7 @@ width: 8em;
 height: 2.5em;
 right: 10em;
 top: 0.6em;
-background: url(katalog.png);
+background: url(images/katalog.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
@@ -125,7 +126,7 @@ width: 8em;
 height: 2.5em;
 right: 10em;
 top: 3em;
-background: url(sale.png);
+background: url(images/sale.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
@@ -135,7 +136,7 @@ width: 8em;
 height: 2em;
 right: 10em;
 top: 5.4em;
-background: url(доставка.png);
+background: url(images/dostavka.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
@@ -145,7 +146,7 @@ width: 8em;
 height: 2.5em;
 right: 10em;
 top: 6.7em;
-background: url(оплата.png);
+background: url(images/oplata.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
