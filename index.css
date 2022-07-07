@@ -1,9 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
-body {padding: 0;margin:0;
-    	background: url(images/f.png) repeat center top /cover;
-		/*background-repeat:repeat; 
-		background-size:100%;*/
+body {
+	padding: 0px;
+	margin:0px;
+	background: url(images/f.png) repeat center top /cover;
+	/*background-repeat:repeat; 
+	background-size:100%;*/
 }
 button {width: 100%;height: 100%;}
 form {height: 100%;width: 100%;}
@@ -19,7 +21,7 @@ top: 0px;
 #shapka_logo{
 position: absolute;
 width: 10em;
-height: 8em;
+height: 7em;
 left: 0em;
 top: 0.1em;
 background-image: url(images/logo.png);
@@ -30,8 +32,8 @@ background-size: 95%;
 #shapka_nadpis{
 position: absolute;
 width: 38em;
-height: 5em;
-left: 30em;
+height: 30em;
+left: 0em;
 top:2em;
 background-image: url(images/computersystem.png);
 background-repeat: no-repeat; 
@@ -155,36 +157,30 @@ background-size: 100%;
 }
 @media (min-width:1700px) {
 #shapka_nadpis{
-position: absolute;
-left: 40em;
+left: 25em;
 }}
 @media (max-width:1699px) {
 #shapka_nadpis{
-position: absolute;
-left: 26em;
+left: 20em;
 }}
 @media (max-width:1521px) {
 #shapka_nadpis{
-position: absolute;
-left: 22.5em;
+left: 17em;
 }}
 @media (max-width:1430px) {
 #shapka_nadpis{
-position: absolute;
-left: 19em;
+left: 17em;
+width:28em;
 }
 #podval_namecompany{position: absolute;
 left:32em;}
 @media (max-width:1350px) {
 #shapka_nadpis{
-position: absolute;
-left: 17em;
-	width:28em;
 }
 #podval_namecompany{position: absolute;
 left:24em;
 width:24em;}}
-@media (max-width:1156px) {
+@media (max-width:1200px) {
 #shapka_nadpis{
 position: absolute;
 left: 17em;
