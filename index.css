@@ -51,19 +51,19 @@ background: url(images/kontaktpc.png);
 background-repeat: no-repeat; 
 background-size: 100%;border: 0px;}
 /*whatsap button */
-#shapka_whatssupdiv{position: absolute;
+.shapka_whatssupdiv{position: absolute;
 width: 4.5em;
-height: 5.3em;
+height: 4.6em;
 right: 0em;
 top: 1.3em;
 }
-#shapka_whatssapbutton{
+.shapka_whatssupdiv button{
 border: 0px #000000;
 background: url(images/whatssup.png);
 border-radius: 1em;
 background-repeat: no-repeat; 
 background-size:100%;}
-#shapka_whatssapbutton:hover{width: 5.7em;
+.shapka_whatssupdiv button:hover{width: 5.7em;
 height: 5.7em;
 border: 3em #064552;}
 /*end whatsap button */
@@ -75,10 +75,27 @@ top: 7.1em;
 height: 60em;
 background: #FFFFFF;
 }
-
-
-
-
+.main_sylka {
+box-sizing: border-box;
+position: absolute;
+width: 100%;
+height: 6.5em;
+left: 0px; top: 0px;
+border: 9px solid #000000;
+}
+.main_sylka div {position: relative; 
+	display:inline-block;
+	top:1em; 
+	margin-left: 5%;
+	height:3.5em; width: 14em;
+}
+.main_sylka button{background: 0%;
+	border: 0px;width: 100%;height:100%;;
+}
+	.main_sylka img {
+		background-repeat: no-repeat;
+		width: 100%;height:100%;
+		background-size: 100%;}
 
 
 
@@ -155,6 +172,11 @@ background-size: 100%;
 
 
 }
+@media (max-width:1816px) {
+	.main_sylka div {
+	margin-left: 3.5%;
+}
+}
 @media (min-width:1700px) {
 #shapka_nadpis{
 left: 25em;
@@ -162,11 +184,16 @@ left: 25em;
 @media (max-width:1699px) {
 #shapka_nadpis{
 left: 20em;
+}
+.main_sylka div {
+	margin-left: 2.5%;
+	height:3em; width: 12em;
 }}
 @media (max-width:1521px) {
 #shapka_nadpis{
 left: 17em;
-}}
+}
+}
 @media (max-width:1430px) {
 #shapka_nadpis{
 left: 17em;
@@ -175,19 +202,27 @@ width:28em;
 #podval_namecompany{position: absolute;
 left:32em;}
 @media (max-width:1350px) {
-#shapka_nadpis{
+.main_sylka div {
+	margin-left: 2.5%;
+	height:2.7em; width: 11em;
 }
 #podval_namecompany{position: absolute;
 left:24em;
 width:24em;}}
-@media (max-width:1200px) {
+@media (max-width:1230px) {
 #shapka_nadpis{
 position: absolute;
 left: 17em;
 	width:20em;
+}.main_sylka div {
+	margin-left: 2.5%;
+	height:2.3em; width: 9em;
 }
 #podval_namecompany{position: absolute;
 left:24em;
 width:16em;}
 #shapka_kontakt{width: 10em;}
+}.gff {
+}
+.vc {
 }
