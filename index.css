@@ -11,29 +11,30 @@ button {width: 100%;height: 100%;}
 form {height: 100%;width: 100%;}
 .container{width: 85%;
 margin-left: 7em; margin-right: 10em;}
+.mainbody div{display: flex;}
 /*shapka */
 #shapka{
-position: absolute;
+position: relative;
 height: 7em;
 left: 0px;
 top: 0px;
 }
 #shapka_logo{
 position: absolute;
-width: 10em;
-height: 7em;
+width: 11%;
+height:100%;
 left: 0em;
-top: 0.1em;
+
 background-image: url(images/logo.png);
 background-repeat: no-repeat; 
-background-size: 95%;
+background-size: 100%;
 }
 
 #shapka_nadpis{
 position: absolute;
-width: 38em;
-height: 30em;
-left: 0em;
+width: 40%;
+height: 60%;
+left: 25%;
 top:2em;
 background-image: url(images/computersystem.png);
 background-repeat: no-repeat; 
@@ -41,9 +42,9 @@ background-size: 100%;
 }
 #shapka_kontakt {
 position: absolute;
-width: 14em;
-height: 6.5em;
-right: 5em;
+width: 15%;
+height: 90%;
+right: 7%;
 top: 0.5em;
 }
 #shapka_kontakt_button{
@@ -52,8 +53,8 @@ background-repeat: no-repeat;
 background-size: 100%;border: 0px;}
 /*whatsap button */
 .shapka_whatssupdiv{position: absolute;
-width: 4.5em;
-height: 4.6em;
+width: 5%;
+height: 80%;
 right: 0em;
 top: 1.3em;
 }
@@ -63,17 +64,17 @@ background: url(images/whatssup.png);
 border-radius: 1em;
 background-repeat: no-repeat; 
 background-size:100%;}
-.shapka_whatssupdiv button:hover{width: 5.7em;
-height: 5.7em;
+.shapka_whatssupdiv:hover{width: 5.5%;
+height: 90%;
 border: 3em #064552;}
 /*end whatsap button */
 /*end shapka */
 /*main*/
 #main{
-position: absolute;
-top: 7.1em;
+position: relative;
 height: 60em;
 background: #FFFFFF;
+	margin-top: 0.2em;
 }
 .main_sylka {
 box-sizing: border-box;
@@ -100,9 +101,9 @@ border: 9px solid #000000;
 
 /*podval*/
 #podval{
-position:absolute;
+position:relative;
 height: 10em;
-top: 67.2em;
+	margin-top: 0.2em;
 background: rgba(37, 35, 35, 0.73);
 }
 #podval_logo{
