@@ -5,7 +5,7 @@ body {
 	margin:0px;
 	background: url(images/f.png) repeat center top /cover;
 }
-button, a , img {width: 100%;height: 100%;}
+ a , img {width: 100%;height: 100%;}
 .container{width: 85%;
 margin-left: 7.5%; margin-right: 7.5%;}
 .mainbody div{display: flex;}
@@ -27,9 +27,9 @@ left: 0em;
 #shapka_nadpis{
 position: absolute;
 width: 40%;
-height: 60%;
+height: 80%;
 left: 25%;
-top:2em;
+top:30%;
 background-image: url(images/computersystem.png);
 background-repeat: no-repeat; 
 background-size: 100%;
@@ -39,7 +39,7 @@ position: absolute;
 width: 20%;
 height: 90%;
 right: 7%;
-top: 0.5em;
+top: 8%;
 }
 /*whatsap button */
 .shapka_whatssupdiv{position: absolute;
@@ -53,6 +53,8 @@ height: 84%;
 border: 3em #064552;}
 /*end whatsap button */
 /*end shapka */
+
+
 /*main*/
 #main{
 position: relative;
@@ -62,7 +64,7 @@ background: #FFFFFF;
 }
 .main_sylka {
 box-sizing: border-box;
-position: absolute;
+position: absolute;	
 width: 100%;
 height: 6.5em;
 left: 0px; top: 0px;
@@ -72,6 +74,71 @@ border: 9px solid #000000;
 	display:inline-block;
 	top:20%; margin-left: 2%;
 	height:60%; width: 17.5%;}
+
+.kontent{width: 100%;
+	height: 40em;
+	background: url("images/fontowers.png") repeat center top /cover;
+	position: absolute;
+	margin-top: 6.6em;
+}
+.kontent div{
+	position: relative; 
+	display:inline-block;
+	top:20%; margin-left: 2%;
+	height:60%;
+	width: 17.5%;
+	
+}
+#main_imgdiv{
+width: 244px;
+height: 390px;
+background: url("images/sale.png") repeat center top /cover;}
+
+.kontent h1{justify-content: center;
+position: absolute;
+left: 25%;
+width: 50%;
+height: 1em;
+font-family: 'Unna';
+font-style: italic;
+font-weight: 400;
+font-size: 340%;
+line-height: 74px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+#text1{
+width: 453px;
+height: 128px;
+left: 29px;
+top: 81px;
+font-family: 'Swis721 Lt BT';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 99.51%;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
+}
+#text2{
+position: absolute;
+width: 326px;
+height: 349px;
+left: 733px;
+top: 90px;
+font-family: 'Swis721 Lt BT';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 99.51%;
+text-align: center;
+color: #FFFFFF;
+border: 1px solid #000000;
+text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.75);
+}
 
 
 
@@ -145,61 +212,23 @@ background-size: 100%;
 
 
 /*media*/
-/*@media (orientation: portrait) {
+@media (orientation: portrait) {
+.container{width: 100%;
+margin: 0%; }
 
+}
+@media (min-width:1900px) {
+	#shapka{
+height: 8.5em;
+ }
+@media (min-width:2900px) {
+	#shapka{
+height: 10em;
+ }
+}
+	@media (min-width:4000px) {
+	#shapka{
+height: 21em;
+ }
+}
 
-}
-@media (max-width:1816px) {
-	.main_sylka div {
-	margin-left: 3.5%;
-}
-}
-@media (min-width:1700px) {
-#shapka_nadpis{
-left: 25em;
-}}
-@media (max-width:1699px) {
-#shapka_nadpis{
-left: 20em;
-}
-.main_sylka div {
-	margin-left: 2.5%;
-	height:3em; width: 12em;
-}}
-@media (max-width:1521px) {
-#shapka_nadpis{
-left: 17em;
-}
-}
-@media (max-width:1430px) {
-#shapka_nadpis{
-left: 17em;
-width:28em;
-}
-#podval_namecompany{position: absolute;
-left:32em;}
-@media (max-width:1350px) {
-.main_sylka div {
-	margin-left: 2.5%;
-	height:2.7em; width: 11em;
-}
-#podval_namecompany{position: absolute;
-left:24em;
-width:24em;}}
-@media (max-width:1230px) {
-#shapka_nadpis{
-position: absolute;
-left: 17em;
-	width:20em;
-}.main_sylka div {
-	margin-left: 2.5%;
-	height:2.3em; width: 9em;
-}
-#podval_namecompany{position: absolute;
-left:24em;
-width:16em;}
-#shapka_kontakt{width: 10em;}
-}.gff {
-}
-.vc {
-}
