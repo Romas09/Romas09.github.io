@@ -100,7 +100,7 @@ background: url(images/logo.png);
 background-repeat: no-repeat; 
 background-size: 100%;
 }
-#podval_namecompany{position: absolute;
+#podval_namecompany{position: absolute;display: none;
 width: 33em;
 height: 6.5em;
 left: 32.5em;
