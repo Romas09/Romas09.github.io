@@ -4,13 +4,10 @@ body {
 	padding: 0px;
 	margin:0px;
 	background: url(images/f.png) repeat center top /cover;
-	/*background-repeat:repeat; 
-	background-size:100%;*/
 }
-button {width: 100%;height: 100%;}
-form {height: 100%;width: 100%;}
+button, a , img {width: 100%;height: 100%;}
 .container{width: 85%;
-margin-left: 7em; margin-right: 10em;}
+margin-left: 7.5%; margin-right: 7.5%;}
 .mainbody div{display: flex;}
 /*shapka */
 #shapka{
@@ -25,9 +22,6 @@ width: 11%;
 height:100%;
 left: 0em;
 
-background-image: url(images/logo.png);
-background-repeat: no-repeat; 
-background-size: 100%;
 }
 
 #shapka_nadpis{
@@ -47,25 +41,15 @@ height: 90%;
 right: 7%;
 top: 0.5em;
 }
-#shapka_kontakt_button{
-background: url(images/kontaktpc.png);
-background-repeat: no-repeat; 
-background-size: 100%;border: 0px;}
 /*whatsap button */
 .shapka_whatssupdiv{position: absolute;
 width: 5%;
 height: 80%;
-right: 0em;
-top: 1.3em;
+right: 0px;
+top: 12%;
 }
-.shapka_whatssupdiv button{
-border: 0px #000000;
-background: url(images/whatssup.png);
-border-radius: 1em;
-background-repeat: no-repeat; 
-background-size:100%;}
-.shapka_whatssupdiv:hover{width: 5.5%;
-height: 90%;
+.shapka_whatssupdiv:hover{width: 5.2%;
+height: 84%;
 border: 3em #064552;}
 /*end whatsap button */
 /*end shapka */
