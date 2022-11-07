@@ -7,7 +7,7 @@ body {
 }
  a , img {width: 100%;height: 100%;}
 .container{width: 85%;
-margin-left: 7.5%; margin-right: 7.5%;}
+margin-left: auto; margin-right: auto;}
 .mainbody div{display: flex;}
 /*shapka */
 #shapka{
