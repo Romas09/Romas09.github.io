@@ -1,0 +1,26 @@
+*{margin: 0;padding: 0;}
+body{ background-image: url('bulochnaya-1024x574.jpg');
+background-repeat: no-repeat; background-size: 100% 100%;background-attachment:fixed ;}
+.main{
+  display: grid;margin-left: auto;margin-right: auto;
+  grid-template-columns: 500px 500px 500px; margin-top: 50px; gap: 25px; width: 1575px;
+  grid-template-rows: 350px 350px 350px;
+}
+.box{
+  background-image: url('_normal.jpg') ; text-align: center;background-size: cover;
+}
+.red{width: 40%; background-color:rgb(0, 0, 0, 0.4) ; float: left;height: 100%;text-align: center;}
+
+a{
+  padding: 10px;font-size: 20px;font-weight: 500;background-color: red; text-decoration: none; color: wheat;font-family: Arial, Helvetica, sans-serif;
+  display: block; width: 100px; margin-left: auto;margin-right: auto;margin-top: 20px;
+}
+h1,h3{color: gray;text-align: center; margin-top: 15px; width: 500px;margin-left: auto;margin-right: auto;}
+img{width: 100%;}
+.g{color: white; font-size: 35px; font-weight: 500;margin-top: 45%;}
+p{color: red; font-size: 18px; margin-top: 5%;border: 1px solid black
+  ;}
+
+
+
+
